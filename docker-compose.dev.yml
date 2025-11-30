@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  dev:
+    image: ubuntu:22.04
+    container_name: hadoop-dev
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./wordcount:/workspace
+    working_dir: /workspace

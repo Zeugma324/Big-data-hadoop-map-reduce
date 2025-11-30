@@ -1,0 +1,6 @@
+*.code-workspace
+.vscode/
+src/
+!src/bulotmoule/
+!src/bulotmoule/**
+README.md
