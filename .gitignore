@@ -1,6 +1,6 @@
 *.code-workspace
 .vscode/
-src/
+src/*
 !src/bulotmoule/
 !src/bulotmoule/**
 README.md
